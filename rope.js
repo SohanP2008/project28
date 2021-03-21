@@ -12,9 +12,6 @@ class Rope{
     fly(){
         this.rope.bodyA = null;
     }
-    attach(body){
-        this.rope.bodyA = body;
-    }
     display(){
         var pointA = this.rope.bodyA.position
         var pointB = this.pointB
